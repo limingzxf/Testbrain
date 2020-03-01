@@ -1,0 +1,389 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<center><h1>《亚特兰蒂斯发现》中的左右脑测试Left and right brain test in <Atlantis Discovery></h1></center>
+
+
+
+
+
+<input type='checkbox' name='1' />我整洁I am neat and tidy<br/>
+<input type='checkbox' name='2' />我写日记I keep a diary<br/>
+<input type='checkbox' name='3' />我经常做白日梦I often daydream<br/>
+<input type='checkbox' name='4' />我喜欢在大自然中漫步I like to wander in nature<br/>
+<input type='checkbox' name='5' />我的猜测通常是对的My guesses are often right<br/>
+<input type='checkbox' name='6' />我会做一个好编辑I would make a good editor<br/>
+<input type='checkbox' name='7' />我说话时用手示意I gesture with my hands when I talk<br/>
+<input type='checkbox' name='8' />我逻辑上解决问题I tackle problems logically<br/>
+<input type='checkbox' name='9' />我为自己想要的努力I work hard for what I want<br/>
+<input type='checkbox' name='10' />我很直觉I am intuitive<br/>
+<input type='checkbox' name='11' />我认为自己是一个踏实的人I consider myself a down-to-earth person<br/>
+<input type='checkbox' name='12' />我对世界有远见I have a vision for the world<br/>
+<input type='checkbox' name='13' />我用语言表达自己I express myself well with words<br/>
+<input type='checkbox' name='14' />我想成为一名艺术家，设计师或音乐家I wanted to be an artist, designer or musician<br/>
+<input type='checkbox' name='15' />我喜欢幻想的故事I enjoy fantasy stories<br/>
+<input type='checkbox' name='16' />我擅长数学I am good at mathematics<br/>
+<input type='checkbox' name='17' />我是目标导向I am goal-orientated<br/>
+<input type='checkbox' name='18' />我喜欢跳舞I love to dance<br/>
+<input type='checkbox' name='19' />我喜欢务实I like to be practical<br/>
+<input type='checkbox' name='20' />我总是遵循我的预感I always follow my hunches<br/>
+<input type='checkbox' name='21' />我不能涉及精神问题I can't relate to psychic things<br/>
+<input type='checkbox' name='22' />我对日常工作感到无聊I get bored with routine<br/>
+<input type='checkbox' name='23' />当人们问一个问题时，我将头向左转When people ask a question, I turn my head to the left<br/>
+<input type='checkbox' name='24' />我总是走熟悉的路线I always take a familiar route<br/>
+<input type='checkbox' name='25' />我喜欢学习事实I enjoy learning facts<br/>
+<input type='checkbox' name='26' />我想成为一名律师，会计师或牙医I wanted to be a solicitor, accountant or dentist<br/>
+<input type='checkbox' name='27' />我喜欢在决定之前先了解事实I like to know the facts before I make a decision<br/>
+<input type='checkbox' name='28' />有时候我会浪费时间Sometimes I lose time<br/>
+<input type='checkbox' name='29' />我爱满月I love the full moon<br/>
+<input type='checkbox' name='30' />我喜欢常规I like routine<br/>
+<input type='checkbox' name='31' />我爱音乐I love music<br/>
+<input type='checkbox' name='32' />当被问到问题时，我将头向右转When asked a question, I turn my head to the right<br/>
+<input type='checkbox' name='33' />我写清单I write lists<br/>
+<input type='checkbox' name='34' />我有一个积极的想像力I have an active imagination<br/>
+<input type='checkbox' name='35' />有时候我只知道答案Sometimes I just know the answer<br/>
+<input type='checkbox' name='36' />我喜欢与他人合作I like co-operating with others<br/>
+<input type='checkbox' name='37' />我更喜欢看书而不是看电影I prefer to read a book than watch the film made from it<br/>
+<input type='checkbox' name='38' />我喜欢负责I like to be in charge<br/>
+<input type='checkbox' name='39' />我喜欢看整个图片I like to see the whole picture<br/>
+<input type='checkbox' name='40' />我感觉到气氛在一个房间I sense atmospheres in a room<br/>
+
+<input type='button' value='判断Judge' onclick='return fun()' />
+<script type="text/javascript">
+
+function fun()
+{ 
+
+    var sum=0;
+	var left=0;
+	var right=0;
+	var left1=0;
+	var right1=0;
+	for(var i=1;i<41;i++){
+    
+    var a=document.getElementsByName(i);		
+
+       var b=0;     //设定一个初始值
+
+			
+		if(a[0].checked==true)
+		{
+			switch (i) {
+
+              case 1:
+				left=left+1;
+				break;
+              case 2:
+				left=left+1;
+				break;
+              case 3:
+				right=right+1;
+				break;
+              case 4:
+				right=right+1;
+				break;
+              case 5:
+				right=right+1;
+				break;
+              case 6:
+				left=left+1;
+				break;
+              case 7:
+				right=right+1;
+				break;
+              case 8:
+				left=left+1;
+				break;
+              case 9:
+				left=left+1;
+				break;
+              case 10:
+				right=right+1;
+				break;
+              case 11:
+				left=left+1;
+				break;
+              case 12:
+				right=right+1;
+				break;
+              case 13:
+				left=left+1;
+				break;
+              case 14:
+				right=right+1;
+				break;
+              case 15:
+				right=right+1;
+				break;
+              case 16:
+				left=left+1;
+				break;
+              case 17:
+				right=right+1;
+				break;
+              case 18:
+				left=left+1;
+				break;
+              case 19:
+				left=left+1;
+				break;
+              case 20:
+				right=right+1;
+				break;
+             case 21:
+				left=left+1;
+				break;
+              case 22:
+				right=right+1;
+				break;
+              case 23:
+				right=right+1;
+				break;
+              case 24:
+				left=left+1;
+				break;
+              case 25:
+				left=left+1;
+				break;
+              case 26:
+				left=left+1;
+				break;
+              case 27:
+				left=left+1;
+				break;
+              case 28:
+				right=right+1;
+				break;
+              case 29:
+				right=right+1;
+				break;
+              case 30:
+				left=left+1;
+				break;
+              case 31:
+				right=right+1;
+				break;
+              case 32:
+				left=left+1;
+				break;
+              case 33:
+				left=left+1;
+				break;
+              case 34:
+				right=right+1;
+				break;
+              case 35:
+				right=right+1;
+				break;
+              case 36:
+				right=right+1;
+				break;
+              case 37:
+				left=left+1;
+				break;
+              case 38:
+				left=left+1;
+				break;
+              case 39:
+				right=right+1;
+				break;
+              case 40:
+				right=right+1;
+				break;
+					
+
+			}
+		   
+			sum=sum+1;
+			
+            
+		}
+		else
+		{
+			if(a[0].checked==false)
+			{
+				
+			switch (i) {
+
+              case 1:
+				left1=left1+1;
+				break;
+              case 2:
+				left1=left1+1;
+				break;
+              case 3:
+				right1=right1+1;
+				break;
+              case 4:
+				right1=right1+1;
+				break;
+              case 5:
+				right1=right1+1;
+				break;
+              case 6:
+				left1=left1+1;
+				break;
+              case 7:
+				right1=right1+1;
+				break;
+              case 8:
+				left1=left1+1;
+				break;
+              case 9:
+				left1=left1+1;
+				break;
+              case 10:
+				right1=right1+1;
+				break;
+              case 11:
+				left1=left1+1;
+				break;
+              case 12:
+				right1=right1+1;
+				break;
+              case 13:
+				left1=left1+1;
+				break;
+              case 14:
+				right1=right1+1;
+				break;
+              case 15:
+				right1=right1+1;
+				break;
+              case 16:
+				left1=left1+1;
+				break;
+              case 17:
+				right1=right1+1;
+				break;
+              case 18:
+				left1=left1+1;
+				break;
+              case 19:
+				left1=left1+1;
+				break;
+              case 20:
+				right1=right1+1;
+				break;
+             case 21:
+				left1=left1+1;
+				break;
+              case 22:
+				right1=right1+1;
+				break;
+              case 23:
+				right1=right1+1;
+				break;
+              case 24:
+				left1=left1+1;
+				break;
+              case 25:
+				left1=left1+1;
+				break;
+              case 26:
+				left1=left1+1;
+				break;
+              case 27:
+				left1=left1+1;
+				break;
+              case 28:
+				right1=right1+1;
+				break;
+              case 29:
+				right1=right1+1;
+				break;
+              case 30:
+				left1=left1+1;
+				break;
+              case 31:
+				right1=right1+1;
+				break;
+              case 32:
+				left1=left1+1;
+				break;
+              case 33:
+				left1=left1+1;
+				break;
+              case 34:
+				right1=right1+1;
+				break;
+              case 35:
+				right1=right1+1;
+				break;
+              case 36:
+				right1=right1+1;
+				break;
+              case 37:
+				left1=left1+1;
+				break;
+              case 38:
+				left1=left1+1;
+				break;
+              case 39:
+				right1=right1+1;
+				break;
+              case 40:
+				right1=right1+1;
+				break;
+					
+
+			}
+		   	
+	
+				b++;    //如果方框没选中，该值会累加
+			} 
+			if(b==a.length)   //如果该值和方框的个数相同，那么就会报错
+			{
+			
+			}
+		}
+
+
+  
+	}
+
+if(left>right){
+if(left1<right1){
+ alert("左。一个左脑的人将是逻辑，理性，大脑，实践，等级制，守时的，热爱常规的，并且想要秩序和纪律。 他们会注意细节。 不利的一面是它们分散在头部和心脏之间，可能导致其他人缺乏感觉。 当他们与精神脱节时，他们也会变得愤世嫉俗。 不利的一面是，因为他们缺乏专注力，所以他们经常难以完成事情，因此进展缓慢。 他们也可能会感到恐惧和迷信。新时代的目标是平衡左右脑的特质。LEFT.A left-brain person would be logical, rational, cerebral, practical, hierarchical, punctual, a lover of routine, and would like order and discipline. They would have an eye for detail. The downside of this is that they are split between the head and heart, which can result in a lack of feeling for other people. They would also tend to be cynical as they have disconnected from spirit.Right-brain people are inclusive, empathetic, visionary, unbounded, artistic, creative, imaginative, spiritual, flowing and psychic. The downside is that because they lack focus, they frequently have difficulty in accomplishing things and consequently make slower progress. They can also be fearful and superstitious.The aim for the new age is to balance the right- and left-brain qualities.");
+}else if(left>right1){
+ alert("左。一个左脑的人将是逻辑，理性，大脑，实践，等级制，守时的，热爱常规的，并且想要秩序和纪律。 他们会注意细节。 不利的一面是它们分散在头部和心脏之间，可能导致其他人缺乏感觉。 当他们与精神脱节时，他们也会变得愤世嫉俗。 不利的一面是，因为他们缺乏专注力，所以他们经常难以完成事情，因此进展缓慢。 他们也可能会感到恐惧和迷信。新时代的目标是平衡左右脑的特质。LEFT.A left-brain person would be logical, rational, cerebral, practical, hierarchical, punctual, a lover of routine, and would like order and discipline. They would have an eye for detail. The downside of this is that they are split between the head and heart, which can result in a lack of feeling for other people. They would also tend to be cynical as they have disconnected from spirit.Right-brain people are inclusive, empathetic, visionary, unbounded, artistic, creative, imaginative, spiritual, flowing and psychic. The downside is that because they lack focus, they frequently have difficulty in accomplishing things and consequently make slower progress. They can also be fearful and superstitious.The aim for the new age is to balance the right- and left-brain qualities.");
+}
+else{
+	alert("该程序无法判断The program cannot determine/1.L9.L17.L25.L33.L2.L10.R18.R26.L34.R3.R11.L19.L27.L35.R4.R12.R20.R28.R36.R5.R13.L21.L29.R37.L6.L14.R22.R30.L38.L7.R15.R23.R31.R39.R8.L16.L24.L32.L40.R");
+
+
+}
+
+
+}
+if(left<right){
+if(left1>right1){
+ alert("右。一个左脑的人将是逻辑，理性，大脑，实践，等级制，守时的，热爱常规的，并且想要秩序和纪律。 他们会注意细节。 不利的一面是它们分散在头部和心脏之间，可能导致其他人缺乏感觉。 当他们与精神脱节时，他们也会变得愤世嫉俗。 不利的一面是，因为他们缺乏专注力，所以他们经常难以完成事情，因此进展缓慢。 他们也可能会感到恐惧和迷信。新时代的目标是平衡左右脑的特质。RIGHT.A left-brain person would be logical, rational, cerebral, practical, hierarchical, punctual, a lover of routine, and would like order and discipline. They would have an eye for detail. The downside of this is that they are split between the head and heart, which can result in a lack of feeling for other people. They would also tend to be cynical as they have disconnected from spirit.Right-brain people are inclusive, empathetic, visionary, unbounded, artistic, creative, imaginative, spiritual, flowing and psychic. The downside is that because they lack focus, they frequently have difficulty in accomplishing things and consequently make slower progress. They can also be fearful and superstitious.The aim for the new age is to balance the right- and left-brain qualities.");
+}else if(left<right1){
+ alert("右。一个左脑的人将是逻辑，理性，大脑，实践，等级制，守时的，热爱常规的，并且想要秩序和纪律。 他们会注意细节。 不利的一面是它们分散在头部和心脏之间，可能导致其他人缺乏感觉。 当他们与精神脱节时，他们也会变得愤世嫉俗。 不利的一面是，因为他们缺乏专注力，所以他们经常难以完成事情，因此进展缓慢。 他们也可能会感到恐惧和迷信。新时代的目标是平衡左右脑的特质。RIGHT.A left-brain person would be logical, rational, cerebral, practical, hierarchical, punctual, a lover of routine, and would like order and discipline. They would have an eye for detail. The downside of this is that they are split between the head and heart, which can result in a lack of feeling for other people. They would also tend to be cynical as they have disconnected from spirit.Right-brain people are inclusive, empathetic, visionary, unbounded, artistic, creative, imaginative, spiritual, flowing and psychic. The downside is that because they lack focus, they frequently have difficulty in accomplishing things and consequently make slower progress. They can also be fearful and superstitious.The aim for the new age is to balance the right- and left-brain qualities.");
+}
+
+else{
+	alert("该程序无法判断The program cannot determine/1.L9.L17.L25.L33.L2.L10.R18.R26.L34.R3.R11.L19.L27.L35.R4.R12.R20.R28.R36.R5.R13.L21.L29.R37.L6.L14.R22.R30.L38.L7.R15.R23.R31.R39.R8.L16.L24.L32.L40.R");
+
+
+}
+
+}
+
+if(left=right){
+  alert("平衡。一个左脑的人将是逻辑，理性，大脑，实践，等级制，守时的，热爱常规的，并且想要秩序和纪律。 他们会注意细节。 不利的一面是它们分散在头部和心脏之间，可能导致其他人缺乏感觉。 当他们与精神脱节时，他们也会变得愤世嫉俗。 不利的一面是，因为他们缺乏专注力，所以他们经常难以完成事情，因此进展缓慢。 他们也可能会感到恐惧和迷信。新时代的目标是平衡左右脑的特质。BALANCE.A left-brain person would be logical, rational, cerebral, practical, hierarchical, punctual, a lover of routine, and would like order and discipline. They would have an eye for detail. The downside of this is that they are split between the head and heart, which can result in a lack of feeling for other people. They would also tend to be cynical as they have disconnected from spirit.Right-brain people are inclusive, empathetic, visionary, unbounded, artistic, creative, imaginative, spiritual, flowing and psychic. The downside is that because they lack focus, they frequently have difficulty in accomplishing things and consequently make slower progress. They can also be fearful and superstitious.The aim for the new age is to balance the right- and left-brain qualities.");
+}
+ 
+
+}
+</script>
+
+
+</body>
+
+</html>
+
+
